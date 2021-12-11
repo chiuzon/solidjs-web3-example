@@ -1,28 +1,26 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@chiuzon/solidweb3': ^0.0.1
-  '@web3-react/core': ^6.1.9
+  '@chiuzon/solidweb3': ^0.0.6
   '@web3-react/injected-connector': ^6.0.7
   ethers: ^5.5.2
   events: ^3.3.0
   solid-js: ^1.2.6
-  typescript: ^4.4.3
+  typescript: ^4.5.3
   vite: ^2.7.1
-  vite-plugin-solid: ^2.1.3
+  vite-plugin-solid: ^2.1.4
 
 dependencies:
   solid-js: 1.2.6
 
 devDependencies:
-  '@chiuzon/solidweb3': 0.0.1_solid-js@1.2.6
-  '@web3-react/core': 6.1.9
+  '@chiuzon/solidweb3': 0.0.6_solid-js@1.2.6
   '@web3-react/injected-connector': 6.0.7
   ethers: 5.5.2
   events: 3.3.0
-  typescript: 4.5.2
+  typescript: 4.5.3
   vite: 2.7.1
-  vite-plugin-solid: 2.1.3
+  vite-plugin-solid: 2.1.4
 
 packages:
 
@@ -316,8 +314,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@chiuzon/solidweb3/0.0.1_solid-js@1.2.6:
-    resolution: {integrity: sha512-ZvhdaZ9GVrSAF2lu2xsDVJZ9yTgeRh8e36mfLlmKJj4hhtB5GXAki4aqFNx2ov+RnL1QxxP5XUkUf46dYXrruA==}
+  /@chiuzon/solidweb3/0.0.6_solid-js@1.2.6:
+    resolution: {integrity: sha512-yxJWsYvbRC2CkWaL2ZiVSnT6mGCENSOCH3y8T+zfZd7lmCTxM4MXw4jqG9d0gp6BxggkeZyj5NlnQhKEgERlNg==}
     peerDependencies:
       solid-js: ^1.0.0
     dependencies:
@@ -643,18 +641,6 @@ packages:
       '@web3-react/types': 6.0.7
     dev: true
 
-  /@web3-react/core/6.1.9:
-    resolution: {integrity: sha512-P877DslsbAkWIlMANpWiK7pCvNwlz0kJC0EGckuVh0wlA23J4UnFxq6xyOaxkxaDCu14rA/tAO0NbwjcXTQgSA==}
-    peerDependencies:
-      react: '>=16.8'
-    dependencies:
-      '@ethersproject/keccak256': 5.5.0
-      '@web3-react/abstract-connector': 6.0.7
-      '@web3-react/types': 6.0.7
-      tiny-invariant: 1.2.0
-      tiny-warning: 1.0.3
-    dev: true
-
   /@web3-react/injected-connector/6.0.7:
     resolution: {integrity: sha512-Y7aJSz6pg+MWKtvdyuqyy6LWuH+4Tqtph1LWfiyVms9II9ar/9B/de4R8wh4wjg91wmHkU+D75yP09E/Soh2RA==}
     dependencies:
@@ -715,7 +701,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001286
-      electron-to-chromium: 1.4.14
+      electron-to-chromium: 1.4.15
       escalade: 3.1.1
       node-releases: 2.0.1
       picocolors: 1.0.0
@@ -762,8 +748,8 @@ packages:
       ms: 2.1.2
     dev: true
 
-  /electron-to-chromium/1.4.14:
-    resolution: {integrity: sha512-RsGkAN9JEAYMObS72kzUsPPcPGMqX1rBqGuXi9aa4TBKLzICoLf+DAAtd0fVFzrniJqYzpby47gthCUoObfs0Q==}
+  /electron-to-chromium/1.4.15:
+    resolution: {integrity: sha512-WDw2IUL3k4QpbzInV3JZK+Zd1NjWJPDZ28oUSchWb/kf6AVj7/niaAlgcJlvojFa1d7pJSyQ/KSZsEtq5W7aGQ==}
     dev: true
 
   /elliptic/6.5.4:
@@ -1189,10 +1175,6 @@ packages:
       has-flag: 3.0.0
     dev: true
 
-  /tiny-invariant/1.2.0:
-    resolution: {integrity: sha512-1Uhn/aqw5C6RI4KejVeTg6mIS7IqxnLJ8Mv2tV5rTc0qWobay7pDUz6Wi392Cnc8ak1H0F2cjoRzb2/AW4+Fvg==}
-    dev: true
-
   /tiny-warning/1.0.3:
     resolution: {integrity: sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==}
     dev: true
@@ -1206,14 +1188,14 @@ packages:
     resolution: {integrity: sha512-nsZd8ZeNUzukXPlJmTBwUAuABDe/9qtVDelJeT/qW0ow3ZS3BsQJtNkan1802aM9Uf68/Y8ljw86Hu0h5IUW3w==}
     dev: true
 
-  /typescript/4.5.2:
-    resolution: {integrity: sha512-5BlMof9H1yGt0P8/WF+wPNw6GfctgGjXp5hkblpyT+8rkASSmkUKMXrxR0Xg8ThVCi/JnHQiKXeBaEwCeQwMFw==}
+  /typescript/4.5.3:
+    resolution: {integrity: sha512-eVYaEHALSt+s9LbvgEv4Ef+Tdq7hBiIZgii12xXJnukryt3pMgJf6aKhoCZ3FWQsu6sydEnkg11fYXLzhLBjeQ==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
 
-  /vite-plugin-solid/2.1.3:
-    resolution: {integrity: sha512-OhF90fQ9NwMBlhug1ESrO0n55OPV4LEgkE4WFiC6Z2+DGfb2k9GnQPDjVhZzybjTCfqeOW8gi2Go3U43wsSQdA==}
+  /vite-plugin-solid/2.1.4:
+    resolution: {integrity: sha512-lhEPlDf4PB+KKu5ExaT3zaENqC8shpJ4H74a2R0qbr1MCiFvhE/AooWvIlclpHzBtDK6MmUKv25qSFoSC1EaXQ==}
     dependencies:
       '@babel/core': 7.16.0
       '@babel/preset-typescript': 7.16.0_@babel+core@7.16.0
